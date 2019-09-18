@@ -1,0 +1,16 @@
+{
+  "name": "none",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w scss/main.scss css/main.min.css --output-style compressed"
+  },
+  "author": "vasyl",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.12.0"
+  }
+}
